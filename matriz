@@ -1,0 +1,80 @@
+import java.util.Scanner;
+
+public class matrize {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Integer[][] matriz;
+        int l, c, soma = 0, escolha, repete;
+
+        do {
+
+            do {
+                System.out.println("Digite a quantidade de linhas da matriz: ");
+                l = scanner.nextInt();
+
+                System.out.println("Digite a quantidade de colunas da matriz: ");
+                c = scanner.nextInt();
+            } while (l < 0 || c < 0);
+
+            matriz = new Integer[l][c];
+
+            for (int i = 0; i < l; i++) {
+                for (int j = 0; j < c; j++) {
+                    System.out.println("matriz[" + i + "][" + j + "]");
+                    matriz[i][j] = scanner.nextInt();
+
+
+                }
+
+            }
+            System.out.println();
+
+            for (int i = 0; i < l; i++) {
+                for (int j = 0; j < c; j++) {
+                    System.out.print(matriz[i][j] + "\t");
+                }
+                System.out.println();
+            }
+
+            System.out.println("Digite 1 para somar uma coluna específica, 2 para uma linha ou 3 para toda a matriz ou qualquer outro valor para finalizar o código: ");
+            escolha = scanner.nextInt();
+
+            if (escolha == 1) {
+                System.out.println("Escolha uma coluna de 0 a " + (c - 1) + " :");
+                int col = scanner.nextInt();
+
+                for (int i = 0; i < l; i++) {
+                    soma += matriz[i][col];
+                }
+                System.out.println();
+                System.out.println("A soma dos elementos da coluna" + col + " é: " + soma);
+            } else if (escolha == 2) {
+                System.out.println("Escolha uma linha de 0 a " + (l - 1) + " :");
+                int lin = scanner.nextInt();
+                soma = 0;
+                for (int j = 0; j < c; j++) {
+                    soma += matriz[lin][j];
+                }
+                System.out.println();
+
+                System.out.println("A soma dos elementos da linha " + lin + " é: " + soma);
+
+            } else if (escolha == 3) {
+                soma = 0;
+                for (int i = 0; i < l; i++) {
+                    for (int j = 0; j < c; j++) {
+                        System.out.print(matriz[i][j] + "\t");
+                        soma += matriz[i][j];
+                    }
+                    System.out.println();
+                }
+                System.out.println("A soma de todos os elementos é: " + soma);
+
+            } else {
+                System.out.println("Código finalizado. ");
+            }
+            System.out.println("Deseja inserir uma matriz novamente? digite 1 para sim e qualquer valor para não");
+            repete = scanner.nextInt();
+        }while(repete == 1);
+    }
+}
