@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a299d98c-8572-4b68-871b-47af7ae2621a" name="Changes" comment="atividades" />
+    <list default="true" id="a299d98c-8572-4b68-871b-47af7ae2621a" name="Changes" comment="atividades">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX00/MainProduto.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX00/MainProduto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX00/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX00/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX01/Disciplina.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX01/Disciplina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX01/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX01/Professor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX02/Departamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX02/Departamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX02/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX02/Funcionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX02/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX02/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX03/Computador.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX03/Computador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX03/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX03/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX03/Peca.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX03/Peca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX04/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX04/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATVPOO/EX04/TesteAluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EX04/TesteAluno.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,9 +66,17 @@
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Lucas/IdeaProjects/ATVPOO/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lucas\IdeaProjects\ATVPOO\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -99,6 +122,7 @@
       <workItem from="1774884584928" duration="1316000" />
       <workItem from="1774885936703" duration="129000" />
       <workItem from="1774886587307" duration="76000" />
+      <workItem from="1774892278579" duration="1181000" />
     </task>
     <task id="LOCAL-00001" summary="atividades">
       <option name="closed" value="true" />
