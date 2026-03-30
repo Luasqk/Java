@@ -1,6 +1,8 @@
+package BatalhaNaval;
+
 import java.util.Scanner;
 
-public class batalhanaval {
+public class BatalhaNaval {
     public static void inicializarTabuleiro(char[][] matriz) {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz.length; j++) {

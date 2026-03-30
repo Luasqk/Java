@@ -1,6 +1,8 @@
+package Matriz;
+
 import java.util.Scanner;
 
-public class matrize {
+public class Matriz {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Integer[][] matriz;
