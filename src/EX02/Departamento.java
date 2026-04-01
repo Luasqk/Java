@@ -11,6 +11,7 @@ public class Departamento {
         this.nome = nome;
         this.funcionario = new ArrayList();
     }
+    //agregacao
 
     public void adicionaFuncionario(Funcionario f1) {
         this.funcionario.add(f1);

@@ -12,6 +12,7 @@ public class Computador {
         this.pecas = new ArrayList();
     }
 
+//composicao
     public void adicionarPeca(String nomePeca) {
         Peca peca = new Peca(nomePeca);
         this.pecas.add(peca);
@@ -27,6 +28,7 @@ public class Computador {
         }
 
     }
+//composicao
 
     public String getMarca() {
         return this.marca;

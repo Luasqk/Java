@@ -8,6 +8,7 @@ public class Professor {
         this.nome = nome;
         this.disciplina = disciplina;
     }
+    //associacao simples
 
     public void exibirDados() {
         String var10001 = this.nome;
