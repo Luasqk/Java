@@ -4,6 +4,7 @@ public class Cachorro extends Animal {
 
     public Cachorro(String nome, int idade, double peso) {
         super(nome, idade, peso);
+        //heranca
     }
 
     @Override
@@ -15,4 +16,6 @@ public class Cachorro extends Animal {
     public void mover(){
         System.out.println("O cachorro está se movendo");
     }
+
+    //sobrescrita
 }

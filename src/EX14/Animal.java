@@ -5,6 +5,9 @@ public abstract class Animal {
     private int idade;
     private double peso;
 
+    //a criacao da classe abstrata Animal evita a duplicacao de codigo por implementar metodos que todas as filhas
+    //deverao ter obrigatoriamente
+
     public Animal(String nome, int idade, double peso) {
         this.nome = nome;
         this.idade = idade;
@@ -12,7 +15,11 @@ public abstract class Animal {
     }
 
     public abstract void emitirSom();
+    //esse metodo foi criado como abstrato para poder servir de molde para as classes filhas
+    //sendo assim, por isso ele nao precisa de escopo
+
     public abstract void mover();
+    //abstracao
 
     public void exibirDados(){
         System.out.println("Nome: " + getNome() + "\nIdade: " + getIdade() + "\nPeso: " + getPeso());

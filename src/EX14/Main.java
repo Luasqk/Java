@@ -19,6 +19,8 @@ public class Main {
 
         for (Animal animal : animais) {
             animal.exibirDados();
+            animal.mover();
+            animal.emitirSom();
             System.out.println("\n - - - - - - - - - - - - \n");
         }
     }
